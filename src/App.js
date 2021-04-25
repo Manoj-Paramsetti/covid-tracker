@@ -23,8 +23,7 @@ function App() {
         const res = await axios.get(url);
         update_state(res.data)
       } catch (error) {
-        let data = {confirmed: {value: 0},recovered: {value: 0},deaths: {value: 0},}
-        update_state()
+        console.log(error)
       }
   };  
   
