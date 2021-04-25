@@ -42,7 +42,7 @@ function App() {
   
   return (
     <div className="App">
-      <h1 style={{background:"#FFF", color: "#FCFCFC", paddingTop: 20, paddingBottom: 20}}>Corona Virus Tracker</h1>
+      <h1 style={{background:"#FCFCFC", color: "#444444", paddingTop: 20, paddingBottom: 20}}>Corona Virus Tracker</h1>
       <img src="https://images.vexels.com/media/users/3/193251/isolated/preview/b23a8130b03eff475be26b2275ebfc19-covid-19-man-character-icon-by-vexels.png" height="200px" alt="Wear corona mask"></img>
       {"\n"}
       <select ref={option} onChange={update} style={{width: "80%", padding: "10px", background: "#EEEEEE", outline:0, border:0, paddingRight: "20px"}}>
